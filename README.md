@@ -73,6 +73,14 @@ The Language Server analyzes AngelScript files within your project and offers th
 
 > Note: Documentation for the Debugger, Code Actions, and other features is currently missing and will be added in a future update.
 
+## basic build commands:
+- **Initial Setup**: `npm install && npm run postinstall`
+- **Build**: `npm run compile`
+- **Watch**: `npm run watch`
+- **Lint**: `npm run lint`
+- **Test (Server)**: `cd server && npm test`
+- **Test (E2E)**: `npm test`
+
 # Unimplemented Features
 
 The following features are currently under development:
